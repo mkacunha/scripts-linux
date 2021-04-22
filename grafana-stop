@@ -1,0 +1,1 @@
+docker-compose -f ~/scripts-linux/grafana-docker-compose.yml down

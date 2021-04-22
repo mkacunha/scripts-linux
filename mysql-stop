@@ -1,0 +1,1 @@
+docker-compose -f ~/scripts-linux/mysql-docker-compose.yml down

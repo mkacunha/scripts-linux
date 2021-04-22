@@ -1,0 +1,3 @@
+docker-compose -f ~/scripts-linux/apache-cassandra-docker-compose.yml rm
+docker-compose -f ~/scripts-linux/apache-cassandra-docker-compose.yml up -d
+docker-compose -f ~/scripts-linux/apache-cassandra-docker-compose.yml ps

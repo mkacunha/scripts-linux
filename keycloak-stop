@@ -1,0 +1,1 @@
+docker-compose -f ~/scripts-linux/keycloak-docker-compose.yml down

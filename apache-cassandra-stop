@@ -1,0 +1,1 @@
+docker-compose -f ~/scripts-linux/apache-cassandra-docker-compose.yml down

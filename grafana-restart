@@ -1,0 +1,2 @@
+docker-compose -f ~/scripts-linux/grafana-docker-compose.yml restart
+docker-compose -f ~/scripts-linux/grafana-docker-compose.yml ps

@@ -1,0 +1,25 @@
+version: '3'
+services:
+  grafana:
+    image: grafana/grafana
+    networks:
+      - grafana-network
+    ports:
+      - 3000:3000
+    volumes:
+      - ~/.data/grafana:/var/lib/grafana
+
+  Influx:
+    image: influxdb:1.0
+    ports:
+      - 8083:8083
+      - 8086:8086
+      - 25826:25826/udp
+    networks:
+      - grafana-network
+    volumes:
+      - ~/.data/influx:/var/lib/influxdb
+
+networks:
+  grafana-network:
+    driver: bridge

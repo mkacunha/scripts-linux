@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mysql-db:
+    image: mysql:5.7
+    ports:
+    - "3306:3306"
+    environment:
+      MYSQL_DATABASE: 'wa'
+      MYSQL_USER: 'wa'
+      MYSQL_PASSWORD: '123Mudar'
+      MYSQL_ROOT_PASSWORD: '123Mudar'
+    volumes:
+      - "~/.data/mysql:/var/lib/mysql"

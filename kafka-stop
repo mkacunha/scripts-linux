@@ -1,0 +1,1 @@
+docker-compose -f ~/scripts-linux/kafka-docker-compose.yml down
